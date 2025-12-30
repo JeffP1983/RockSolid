@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rock Solid Redevelopment - Professional real estate wholesaling and property investment. Get fair offers on your properties with quick closings and no repairs needed.">
+    <meta name="keywords" content="real estate wholesaling, property investment, cash offers, quick closing, sell property fast, wholesale real estate">
+    <title>Rock Solid Redevelopment - Professional Real Estate Wholesaling</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="logo.png" alt="Rock Solid Redevelopment" class="logo-image">
+            </div>
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                </ul>
+            </nav>
+            <a href="tel:XXX-XXX-XXXX" class="cta-button header-cta">Call! (XXX) XXX-XXXX</a>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Get Fair Offers on Your DFW Metro Properties</h1>
+                <p class="hero-subtitle">Fair Market Value Offers | Quick Closings | No Repairs Needed</p>
+                <p class="hero-tertiary">Wholesale Opportunities | Professional Network</p>
+            </div>
+            <div class="hero-form-container">
+                <form id="heroForm" class="lead-form" novalidate>
+                    <h3>Get Your Free Property Analysis</h3>
+                    <div class="form-group">
+                        <label for="heroAddress">Property Address *</label>
+                        <input type="text" id="heroAddress" name="address" placeholder="Full Address" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="heroStreet" name="street" placeholder="Street" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="heroCity" name="city" placeholder="City" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <select id="heroState" name="state" required>
+                                <option value="">State</option>
+                                <option value="TX">Texas</option>
+                                <option value="OK">Oklahoma</option>
+                                <option value="AR">Arkansas</option>
+                                <option value="LA">Louisiana</option>
+                                <option value="AL">Alabama</option>
+                                <option value="AZ">Arizona</option>
+                                <option value="CA">California</option>
+                                <option value="CO">Colorado</option>
+                                <option value="FL">Florida</option>
+                                <option value="GA">Georgia</option>
+                                <option value="IL">Illinois</option>
+                                <option value="IN">Indiana</option>
+                                <option value="KS">Kansas</option>
+                                <option value="KY">Kentucky</option>
+                                <option value="MI">Michigan</option>
+                                <option value="MO">Missouri</option>
+                                <option value="NC">North Carolina</option>
+                                <option value="NV">Nevada</option>
+                                <option value="OH">Ohio</option>
+                                <option value="PA">Pennsylvania</option>
+                                <option value="SC">South Carolina</option>
+                                <option value="TN">Tennessee</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="heroZip" name="zip" placeholder="ZIP Code" required pattern="[0-9]{5}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="heroName">Full Name *</label>
+                        <input type="text" id="heroName" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="heroEmail">Email *</label>
+                        <input type="email" id="heroEmail" name="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="heroPhone">Phone *</label>
+                        <input type="tel" id="heroPhone" name="phone" placeholder="(XXX) XXX-XXXX" required>
+                    </div>
+                    <div class="form-group consent-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="heroConsent" name="consent" required>
+                            <span class="checkbox-text">I agree to the <a href="terms.html" target="_blank">Terms & Conditions</a> and <a href="privacy.html" target="_blank">Privacy Policy</a>. By submitting this form, you consent to receive SMS messages and/or emails from Rock Solid Redevelopment. Message frequency varies. To unsubscribe, follow the instructions provided in our communications. Msg & data rates may apply for SMS. Your information is secure and will not be sold to third parties. Text HELP for HELP. Text STOP to cancel.</span>
+                        </label>
+                    </div>
+                    <button type="submit" class="cta-button form-submit">Get Your Fair Offer Now &raquo;</button>
+                    <div class="form-message" id="heroFormMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- How We Work Section -->
+    <section id="how-we-work" class="how-we-work-section">
+        <div class="container">
+            <h2 class="section-title">How We Work</h2>
+            <p class="section-subtitle">Our straightforward 3-step process</p>
+            <div class="process-grid">
+                <div class="process-card">
+                    <div class="process-number">01</div>
+                    <h3>Contact Us</h3>
+                    <p>Call us at <a href="tel:XXX-XXX-XXXX" class="phone-link">(XXX) XXX-XXXX</a> or fill out our form with your property details. We respond quickly to all inquiries.</p>
+                </div>
+                <div class="process-card">
+                    <div class="process-number">02</div>
+                    <h3>Property Analysis</h3>
+                    <p>We analyze your property and current market conditions to determine the best approach and fair market value.</p>
+                </div>
+                <div class="process-card">
+                    <div class="process-number">03</div>
+                    <h3>Get Your Offer</h3>
+                    <p>Receive a fair cash offer and choose your preferred closing timeline. No obligations, no pressure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Advantages Section -->
+    <section id="services" class="advantages-section">
+        <div class="container">
+            <h2 class="section-title">Our Advantages</h2>
+            <p class="section-intro">Rock Solid Redevelopment is a professional real estate wholesaling and investment company. We help property owners sell their properties quickly and connect investors with profitable opportunities.</p>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="25" cy="25" r="20" stroke="#E52D27" stroke-width="2"/>
+                            <path d="M25 15V30M18 25H32" stroke="#E52D27" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Fair Market Value Offers</h3>
+                    <p>We provide honest, competitive offers based on current market conditions and property analysis.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="25" cy="25" r="20" stroke="#E52D27" stroke-width="2"/>
+                            <path d="M20 25L23 28L30 21" stroke="#E52D27" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Quick Closings</h3>
+                    <p>Close on your timeline - whether you need to sell in days or weeks, we accommodate your schedule.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="15" y="15" width="20" height="20" stroke="#E52D27" stroke-width="2"/>
+                            <path d="M20 20H30M20 25H30M20 30H25" stroke="#E52D27" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>No Repairs Needed</h3>
+                    <p>Sell your property as-is. No need to invest in costly repairs or renovations before selling.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25 15L30 20L25 25L20 20L25 15Z" stroke="#E52D27" stroke-width="2" stroke-linejoin="round"/>
+                            <path d="M25 25L30 30L25 35L20 30L25 25Z" stroke="#E52D27" stroke-width="2" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Wholesale Opportunities</h3>
+                    <p>Access exclusive wholesale deals and investment opportunities through our extensive network.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="5" stroke="#E52D27" stroke-width="2"/>
+                            <circle cx="30" cy="20" r="5" stroke="#E52D27" stroke-width="2"/>
+                            <circle cx="25" cy="30" r="5" stroke="#E52D27" stroke-width="2"/>
+                            <path d="M20 20L25 30M30 20L25 30" stroke="#E52D27" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Professional Network</h3>
+                    <p>Benefit from our extensive network of investors, contractors, and real estate professionals.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25 15L35 25L25 35L15 25L25 15Z" stroke="#E52D27" stroke-width="2" stroke-linejoin="round"/>
+                            <circle cx="25" cy="25" r="3" fill="#E52D27"/>
+                        </svg>
+                    </div>
+                    <h3>Local Expertise</h3>
+                    <p>Deep knowledge of local markets ensures you get the best value for your property.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Rock Solid Redevelopment</h2>
+            <div class="about-content">
+                <p>Rock Solid Redevelopment is a professional real estate wholesaling and investment company dedicated to providing fair, transparent transactions for property owners and investors. With years of experience in the DFW Metro area and surrounding regions, we've built a reputation for integrity, speed, and professionalism.</p>
+                <p>Our team specializes in connecting property sellers with qualified investors, ensuring both parties benefit from mutually advantageous deals. Whether you're looking to sell a property quickly or find your next investment opportunity, we have the expertise and network to make it happen.</p>
+                <p>We pride ourselves on our straightforward approach: no hidden fees, no pressure tactics, just honest business dealings that create win-win situations for everyone involved.</p>
+                <a href="#contact" class="cta-button">Get Your Offer Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Process Visual Timeline -->
+    <section id="process" class="process-timeline-section">
+        <div class="container">
+            <h2 class="section-title">Our Process</h2>
+            <p class="section-subtitle">Simple steps to get a fair offer</p>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">01</div>
+                    <div class="timeline-content">
+                        <h3>Contact Us</h3>
+                        <p>Call or fill out our form with property details. We'll respond promptly to discuss your situation.</p>
+                    </div>
+                </div>
+                <div class="timeline-connector"></div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">02</div>
+                    <div class="timeline-content">
+                        <h3>Property Analysis</h3>
+                        <p>We analyze the property and market conditions to determine fair market value and best options.</p>
+                    </div>
+                </div>
+                <div class="timeline-connector"></div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">03</div>
+                    <div class="timeline-content">
+                        <h3>Get Your Offer</h3>
+                        <p>Receive a fair cash offer and choose your closing timeline. No obligations or pressure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            <div class="testimonials-carousel">
+                <button class="carousel-btn prev" id="prevBtn">&lsaquo;</button>
+                <div class="testimonial-container">
+                    <div class="testimonial active">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Working with Rock Solid Redevelopment was a seamless experience. They provided a fair offer and closed quickly, exactly when I needed them to."</p>
+                            <p class="testimonial-author">- Sarah M., Dallas</p>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Professional, transparent, and efficient. They made selling my property stress-free and got me a great price."</p>
+                            <p class="testimonial-author">- Mike R., Fort Worth</p>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"I've found excellent investment opportunities through Rock Solid. Their wholesale deals are always legitimate and profitable."</p>
+                            <p class="testimonial-author">- Jennifer L., Investor</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next" id="nextBtn">&rsaquo;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Second Lead Form Section -->
+    <section id="contact" class="contact-form-section">
+        <div class="container">
+            <h2 class="section-title">Get Your Fair Offer Today</h2>
+            <p class="section-subtitle">Fill out the form below for a free, no-obligation analysis</p>
+            <div class="contact-form-container">
+                <form id="contactForm" class="lead-form" novalidate>
+                    <div class="form-group">
+                        <label for="contactAddress">Property Address *</label>
+                        <input type="text" id="contactAddress" name="address" placeholder="Full Address" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="contactStreet" name="street" placeholder="Street" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="contactCity" name="city" placeholder="City" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <select id="contactState" name="state" required>
+                                <option value="">State</option>
+                                <option value="TX">Texas</option>
+                                <option value="OK">Oklahoma</option>
+                                <option value="AR">Arkansas</option>
+                                <option value="LA">Louisiana</option>
+                                <option value="AL">Alabama</option>
+                                <option value="AZ">Arizona</option>
+                                <option value="CA">California</option>
+                                <option value="CO">Colorado</option>
+                                <option value="FL">Florida</option>
+                                <option value="GA">Georgia</option>
+                                <option value="IL">Illinois</option>
+                                <option value="IN">Indiana</option>
+                                <option value="KS">Kansas</option>
+                                <option value="KY">Kentucky</option>
+                                <option value="MI">Michigan</option>
+                                <option value="MO">Missouri</option>
+                                <option value="NC">North Carolina</option>
+                                <option value="NV">Nevada</option>
+                                <option value="OH">Ohio</option>
+                                <option value="PA">Pennsylvania</option>
+                                <option value="SC">South Carolina</option>
+                                <option value="TN">Tennessee</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="contactZip" name="zip" placeholder="ZIP Code" required pattern="[0-9]{5}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactName">Full Name *</label>
+                        <input type="text" id="contactName" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactEmail">Email *</label>
+                        <input type="email" id="contactEmail" name="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactPhone">Phone *</label>
+                        <input type="tel" id="contactPhone" name="phone" placeholder="(XXX) XXX-XXXX" required>
+                    </div>
+                    <div class="form-group consent-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="contactConsent" name="consent" required>
+                            <span class="checkbox-text">I agree to the <a href="terms.html" target="_blank">Terms & Conditions</a> and <a href="privacy.html" target="_blank">Privacy Policy</a>. By submitting this form, you consent to receive SMS messages and/or emails from Rock Solid Redevelopment. Message frequency varies. To unsubscribe, follow the instructions provided in our communications. Msg & data rates may apply for SMS. Your information is secure and will not be sold to third parties. Text HELP for HELP. Text STOP to cancel.</span>
+                        </label>
+                    </div>
+                    <button type="submit" class="cta-button form-submit">Get Your Offer Now &raquo;</button>
+                    <div class="form-message" id="contactFormMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Areas Section -->
+    <section id="service-areas" class="service-areas-section">
+        <div class="container">
+            <h2 class="section-title">Areas Where We Work</h2>
+            <div class="service-areas-grid">
+                <div class="service-area">
+                    <h3>Texas</h3>
+                    <ul>
+                        <li><a href="#dallas">Dallas</a></li>
+                        <li><a href="#fort-worth">Fort Worth</a></li>
+                        <li><a href="#arlington">Arlington</a></li>
+                        <li><a href="#plano">Plano</a></li>
+                        <li><a href="#irving">Irving</a></li>
+                    </ul>
+                </div>
+                <div class="service-area">
+                    <h3>Oklahoma</h3>
+                    <ul>
+                        <li><a href="#oklahoma-city">Oklahoma City</a></li>
+                        <li><a href="#tulsa">Tulsa</a></li>
+                        <li><a href="#norman">Norman</a></li>
+                    </ul>
+                </div>
+                <div class="service-area">
+                    <h3>Arkansas</h3>
+                    <ul>
+                        <li><a href="#little-rock">Little Rock</a></li>
+                        <li><a href="#fayetteville">Fayetteville</a></li>
+                        <li><a href="#springdale">Springdale</a></li>
+                    </ul>
+                </div>
+                <div class="service-area">
+                    <h3>Louisiana</h3>
+                    <ul>
+                        <li><a href="#new-orleans">New Orleans</a></li>
+                        <li><a href="#baton-rouge">Baton Rouge</a></li>
+                        <li><a href="#shreveport">Shreveport</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="service-areas-note">Serving the entire DFW Metro area and expanding to new markets. <a href="#contact">Contact us</a> to see if we service your area.</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is real estate wholesaling?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Real estate wholesaling is when we find properties at below-market prices and connect them with investors. We provide fair offers to sellers who need to close quickly and match properties with qualified buyers.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How quickly can you close?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We can close as quickly as 7-14 days, depending on your situation. We work on your timeline to ensure a smooth, stress-free transaction.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do I need to make repairs before selling?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No! We buy properties as-is. You don't need to invest in any repairs, cleaning, or improvements. We handle everything.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Are there any fees or commissions?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No hidden fees or real estate commissions. The offer we make is what you receive at closing.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What types of properties do you work with?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We work with all types of residential properties: single-family homes, multi-family units, condos, townhouses, and vacant land. Any condition, any situation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container footer-container">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Rock Solid Redevelopment" class="logo-image">
+                </div>
+                <p class="footer-description">Professional real estate wholesaling and investment solutions.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Navigation</h4>
+                <ul class="footer-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p><a href="tel:XXX-XXX-XXXX" class="footer-contact">(XXX) XXX-XXXX</a></p>
+                <p class="footer-contact">DFW Metro Area</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 onwards Rock Solid Redevelopment LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
