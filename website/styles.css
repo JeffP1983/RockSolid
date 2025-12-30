@@ -59,6 +59,12 @@ body {
     gap: 10px;
 }
 
+.logo-image {
+    height: 50px;
+    width: auto;
+    display: block;
+}
+
 .logo-text {
     font-size: 20px;
     font-weight: 700;
