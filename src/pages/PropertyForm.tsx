@@ -10,15 +10,15 @@ import {
   contactInfoSchema,
   consentSchema,
   PropertyFormValues,
-} from "@/lib/validation";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Progress } from "@/components/ui/progress";
-import { AddressStep } from "@/components/forms/AddressStep";
-import { PropertyDetailsStep } from "@/components/forms/PropertyDetailsStep";
-import { AdditionalDetailsStep } from "@/components/forms/AdditionalDetailsStep";
-import { ContactInfoStep } from "@/components/forms/ContactInfoStep";
-import { ConsentStep } from "@/components/forms/ConsentStep";
+} from "../lib/validation";
+import { Button } from "../components/ui/button";
+import { Card, CardContent } from "../components/ui/card";
+import { Progress } from "../components/ui/progress";
+import { AddressStep } from "../components/forms/AddressStep";
+import { PropertyDetailsStep } from "../components/forms/PropertyDetailsStep";
+import { AdditionalDetailsStep } from "../components/forms/AdditionalDetailsStep";
+import { ContactInfoStep } from "../components/forms/ContactInfoStep";
+import { ConsentStep } from "../components/forms/ConsentStep";
 import { ChevronLeft, ChevronRight, Home } from "lucide-react";
 import { Link } from "wouter";
 import { toast } from "sonner";

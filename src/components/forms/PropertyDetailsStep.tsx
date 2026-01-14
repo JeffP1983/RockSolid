@@ -1,14 +1,14 @@
 import { UseFormReturn } from "react-hook-form";
-import { PropertyFormValues } from "@/lib/validation";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { PropertyFormValues } from "../../lib/validation";
+import { Input } from "../ui/input";
+import { Label } from "../ui/label";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "../ui/select";
 import { Home } from "lucide-react";
 
 interface PropertyDetailsStepProps {

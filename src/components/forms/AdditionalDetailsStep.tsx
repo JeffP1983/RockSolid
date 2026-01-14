@@ -1,15 +1,15 @@
 import { UseFormReturn } from "react-hook-form";
-import { PropertyFormValues } from "@/lib/validation";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Checkbox } from "@/components/ui/checkbox";
+import { PropertyFormValues } from "../../lib/validation";
+import { Input } from "../ui/input";
+import { Label } from "../ui/label";
+import { Checkbox } from "../ui/checkbox";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "../ui/select";
 import { ClipboardList } from "lucide-react";
 
 interface AdditionalDetailsStepProps {

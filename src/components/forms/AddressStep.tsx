@@ -1,7 +1,7 @@
 import { UseFormReturn } from "react-hook-form";
-import { PropertyFormValues } from "@/lib/validation";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { PropertyFormValues } from "../../lib/validation";
+import { Input } from "../ui/input";
+import { Label } from "../ui/label";
 import { MapPin } from "lucide-react";
 
 interface AddressStepProps {
