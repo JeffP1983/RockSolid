@@ -11,6 +11,7 @@ export default defineConfig({
     },
   },
   server: {
+    host: true, // Listen on all addresses (0.0.0.0)
     port: 3000,
   },
 })
